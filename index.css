@@ -1,0 +1,67 @@
+body{
+
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+
+  width: 90%;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+
+}
+
+.img-holder{
+
+  width: 20%;
+  height: 100%;
+  border: 1px solid red;
+}
+
+.title-holder{
+
+  width: 30%;
+  height: 100%;
+  border: 1px solid blue;
+  
+}
+
+.ratings-holder{
+
+  width: 10%;
+  height: 100%;
+  border: 1px solid blue;
+  
+}
+
+.price-holder{
+
+  width: 30%;
+  height: 100%;
+  border: 1px solid blue;
+  
+}
+
+.buttons-holder{
+
+  width: 10%;
+  height: 100%;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.btn{
+
+  outline: none;
+  border: 1px solid black;
+  background-color: white;
+  margin-top: 10px;
+  height: 30px;
+}
